@@ -108,3 +108,8 @@ the function `escapeHatch()` sending all the ether in the vault to `escapeDestin
 The `escapeHatchCaller` can be changed by the`owner` or the `escapeCaller` by calling:
 
     function changeEscapeCaller(address _newEscapeCaller)
+
+### Running Tests
+
+    In a terminal window, run `testrpc --deterministic` to start the testrpc network
+    In another terminal window, run `truffle test --network=development` to run the tests.
